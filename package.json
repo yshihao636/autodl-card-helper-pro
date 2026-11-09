@@ -1,0 +1,11 @@
+{
+  "name": "autodl-card-helper-pro",
+  "version": "1.1.0",
+  "private": true,
+  "description": "AutoDL 自动抢卡与克隆助手（支持克隆系统盘+数据盘、指定目标服务器主机ID、稀疏拷贝优化、折后价格过滤与 SSH 切流）",
+  "scripts": {
+    "check": "node --check autodl-helper.user.js && node --check tests/core.test.cjs && node --check tests/browser-smoke.cjs",
+    "test": "node --test tests/core.test.cjs",
+    "test:browser": "node tests/browser-smoke.cjs"
+  }
+}
